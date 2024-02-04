@@ -6,3 +6,20 @@
 //
 
 import Foundation
+import Observation
+
+@Observable class CalcBessels {
+    
+    func calcJ0(xValue: Double) -> Double {
+        return sin(xValue)/xValue
+    }
+    
+    func calcJ1(xValue: Double) -> Double {
+        return sin(xValue)/pow(xValue, 2)
+    }
+    
+    func calcDown(x: Double, order: Int) {
+        
+    }
+    
+}
