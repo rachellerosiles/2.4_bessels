@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC095EC12B71935B002A77FF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC095EC02B71935B002A77FF /* Operators.swift */; };
+		AC095EC32B71937A002A77FF /* ActorArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC095EC22B71937A002A77FF /* ActorArray.swift */; };
 		ACC58CD12B6F117B00F43D09 /* __4_besselsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC58CD02B6F117B00F43D09 /* __4_besselsApp.swift */; };
 		ACC58CD32B6F117B00F43D09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC58CD22B6F117B00F43D09 /* ContentView.swift */; };
 		ACC58CD52B6F117C00F43D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC58CD42B6F117C00F43D09 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC095EC02B71935B002A77FF /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		AC095EC22B71937A002A77FF /* ActorArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorArray.swift; sourceTree = "<group>"; };
 		ACC58CCD2B6F117B00F43D09 /* 2.4_bessels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2.4_bessels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC58CD02B6F117B00F43D09 /* __4_besselsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __4_besselsApp.swift; sourceTree = "<group>"; };
 		ACC58CD22B6F117B00F43D09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				ACC58CD62B6F117C00F43D09 /* __4_bessels.entitlements */,
 				ACC58CD72B6F117C00F43D09 /* Preview Content */,
 				ACC58CFD2B6F122700F43D09 /* CalcBessels.swift */,
+				AC095EC02B71935B002A77FF /* Operators.swift */,
+				AC095EC22B71937A002A77FF /* ActorArray.swift */,
 			);
 			path = 2.4_bessels;
 			sourceTree = "<group>";
@@ -265,6 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACC58CD32B6F117B00F43D09 /* ContentView.swift in Sources */,
+				AC095EC32B71937A002A77FF /* ActorArray.swift in Sources */,
+				AC095EC12B71935B002A77FF /* Operators.swift in Sources */,
 				ACC58CFE2B6F122700F43D09 /* CalcBessels.swift in Sources */,
 				ACC58CD12B6F117B00F43D09 /* __4_besselsApp.swift in Sources */,
 			);
