@@ -10,6 +10,10 @@ import Observation
 
 @Observable class BesselFunctionCalculator {
     
+    //vars for quick use in calculating relative difference
+    var downDouble = 0.0
+    var upDouble = 0.0
+    
     /* Calculate Bessel functions using downward recursion */
     /// calculateDownwardRecursion
     /// - Parameters:
@@ -39,6 +43,7 @@ import Observation
         scale = (scale)/jSubl[0]      /* scale the result */
         
         let downwardBessel = jSubl[order]*(scale)
+        downDouble = downwardBessel
         
         return((direction: "Downward", xValue: xValue, order: order, start: start, besselValue: downwardBessel))
     }
@@ -78,6 +83,7 @@ import Observation
         
         let upwardBessel = thirdBessel
         
+        upDouble = upwardBessel
         
         return((direction: "Upward", xValue: xValue, order: order, start: 0, besselValue: upwardBessel))
     }
